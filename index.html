@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="timer-title">Title of Timer</h1>
+    <div class="countdown-container">
+        <div class="countdown-el days-c">
+            <p class="bigtext" id="days">0</p>
+            <span>days</span>
+        </div>
+        <div class="countdown-el hours-c">
+            <p class="bigtext" id="hours">0</p>
+            <span>hours</span>
+        </div>
+        <div class="countdown-el mins-c">
+            <p class="bigtext" id="mins">0</p>
+            <span>mins</span>
+        </div>
+        <div class="countdown-el secs-c">
+            <p class="bigtext" id="secs">0</p>
+            <span>secs</span>
+        </div>
+    </div>
+    <div class="button-c">
+        <button id="btn-start" onclick="myFunction()">Create New Countdown</button>
+    </div>
+ <script src="app.js"></script>   
+</body>
+</html>
